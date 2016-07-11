@@ -1,0 +1,32 @@
+#sidebar-wrapper{
+	background: #132F4D;
+}
+.sidebar-nav li a{
+	color: #FFF;
+}
+@font-face {
+  font-family: Karla;
+  src: url(https://fonts.googleapis.com/css?family=Karla);
+}
+#brand{
+  font-family: Karla;
+}
+body{
+	font-family: Karla;
+}
+img#brand{
+	width:75%;
+	margin: 7px 10px 10px -20px;
+}
+#side-nav-bar a{
+	margin-top: 5px;
+}
+.section-example-container{
+	border-color: #DDD;
+	border-width: 1px;
+	border-radius: 4px 4px 0 0;
+	border-style: solid;
+}
+div.code{
+	background-color: #DDD;
+}
