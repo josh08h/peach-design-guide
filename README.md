@@ -10,6 +10,6 @@ We strongly recommend that if a developer comes across a use case for the first 
 
 The guidelines is essentially a single page booklet that has simple markup which is easy to follow.
 
-1) Clone the repo to local machine using the SSH clone URL.
-2) Create a branch with your name and component to be worked on.
+1) Clone the repo to local machine using the SSH clone URL. <br/>
+2) Create a branch with your name and component to be worked on. <br/>
 3) Create the pull request.
