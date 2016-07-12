@@ -62,7 +62,7 @@
          y="-1021.2997"
          x="159.93123"
          transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla-Regular;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
          id="text4670">
         <tspan
            x="159.93123 186.77643 213.63603 241.68004 270.11642"
@@ -81,17 +81,6 @@
          d="m 142.60723,1021.3004 -16,0 0,24.93 16,0 0,-24.93 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path4678" />
-      <text
-         y="-1207.8947"
-         x="105.68882"
-         transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karl-Regular;-inkscape-font-specification:Karl-Regular-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text4778">
-        <tspan
-           x="105.68882 132.53401 159.39362 187.43762 215.87402"
-           y="-1207.8947"
-           id="tspan4780">PEACH</tspan>
-      </text>
       <path
          d="m 47.86482,1207.8943 -16,0 0,18 16,0 0,-18 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -112,7 +101,7 @@
          y="-1207.8945"
          x="105.69276"
          transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla-Regular;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
          id="text4862">
         <tspan
            x="105.69276 132.53796 159.39757 187.44157 215.87798"
