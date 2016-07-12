@@ -140,3 +140,19 @@ div.code{
 #splitter{
 	border-top: 2px solid #132F4D;
 }
+
+
+/*Logo Section CSS*/
+.main-logo-container{
+	border: solid 2px #132F4D;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+.main-logo-container img{
+	display: block;
+	margin: auto;
+}
+.logo-example{
+	width: 33%;
+	padding-top: 5px;
+}

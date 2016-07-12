@@ -13,7 +13,7 @@
    height="31.893999mm"
    width="98.421997mm"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Logo_4.svg">
+   sodipodi:docname="Logo_5.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,11 +25,11 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
      inkscape:window-height="719"
-     id="namedview194"
+     id="namedview188"
      showgrid="false"
-     inkscape:zoom="1.6341875"
-     inkscape:cx="119.45229"
-     inkscape:cy="43.199293"
+     inkscape:zoom="1.706818"
+     inkscape:cx="112.05224"
+     inkscape:cy="70.198852"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
@@ -54,15 +54,11 @@
     <g
        id="g4656"
        transform="matrix(1.25,0,0,-1.25,0.36258571,2524.7462)">
-       <path
-         d="m 278.69971,1177.905 -278.98600593,0 0,90.405 278.98600593,0 0,-90.405 z"
-         style="fill:#373737;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path4764" />
       <text
          y="-1021.2997"
          x="159.93123"
          transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla-Regular;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Montserrat;-inkscape-font-specification:Montserrat-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="text4670">
         <tspan
            x="159.93123 186.77643 213.63603 241.68004 270.11642"
@@ -85,7 +81,7 @@
          y="-1207.8947"
          x="105.68882"
          transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karl-Regular;-inkscape-font-specification:Karl-Regular-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla-Regular;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
          id="text4778">
         <tspan
            x="105.68882 132.53401 159.39362 187.43762 215.87402"
@@ -105,33 +101,33 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path4786" />
       <path
-         d="m 278.70377,1177.9073 -278.98600454,0 0,90.405 278.98600454,0 0,-90.405 z"
-         style="fill:#14304e;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path4860" />
+         d="m 278.69952,1177.9073 -278.98600091,0 0,90.405 278.98600091,0 0,-90.405 z"
+         style="fill:#823773;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path4872" />
       <text
-         y="-1207.8945"
-         x="105.69276"
+         y="-1207.8947"
+         x="105.68802"
          transform="scale(1,-1)"
          style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla-Regular;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-         id="text4862">
+         id="text4874">
         <tspan
-           x="105.69276 132.53796 159.39757 187.44157 215.87798"
-           y="-1207.8945"
-           id="tspan4864"
+           x="105.68802 132.53322 159.39282 187.43683 215.87323"
+           y="-1207.8947"
+           id="tspan4876"
            style="fill:#ffffff;">PEACH</tspan>
       </text>
       <path
-         d="m 47.868765,1207.8953 -16,0 0,18 16,0 0,-18 z"
+         d="m 47.863519,1207.8943 -16,0 0,18 16,0 0,-18 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path4866" />
+         id="path4878" />
       <path
-         d="m 68.118765,1207.8953 -16,0 0,39.43 16,0 0,-39.43 z"
+         d="m 68.113519,1207.8943 -16,0 0,39.43 16,0 0,-39.43 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path4868" />
+         id="path4880" />
       <path
-         d="m 88.368765,1207.8953 -16,0 0,24.93 16,0 0,-24.93 z"
+         d="m 88.363519,1207.8943 -16,0 0,24.93 16,0 0,-24.93 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="path4870" />
+         id="path4882" />
     </g>
   </g>
 </svg>
