@@ -47,6 +47,106 @@ audio:not([controls]) {
 template {
   display: none;
 }
+/*OWN CSS STYLINE NON COMPILED FOR NAVBARS*/
+/*Navbar CSS*/
+.navbar-header a img{
+  width: 180px;
+  margin: -17px;
+}
+
+/*Navbar CSS main*/
+.nav-peach-main{
+  background: #132F4D;
+}
+.nav-peach-main li a{
+  color: white;
+  padding-top: 20px;
+}
+.nav-peach-main li a:hover{
+  color: #132F4D;
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 3px;
+}
+.nav-peach-main button.navbar-toggle.collapsed{
+  border-color: white;
+}
+.nav-peach-main button.navbar-toggle{
+  border-color: white;
+}
+.nav-peach-main .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+/*Navbar CSS mint*/
+.nav-peach-mint{
+  background: #6AB6AC;
+}
+.nav-peach-mint li a{
+  color: white;
+  padding-top: 20px;
+}
+.nav-peach-mint li a:hover{
+  color: #6AB6AC;
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 3px;
+}
+.nav-peach-mint button.navbar-toggle.collapsed{
+  border-color: white;
+}
+.nav-peach-mint button.navbar-toggle{
+  border-color: white;
+}
+.nav-peach-mint .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+/*Navbar CSS green*/
+.nav-peach-green{
+  background: #50864E;
+}
+.nav-peach-green li a{
+  color: white;
+  padding-top: 20px;
+}
+.nav-peach-green li a:hover{
+  color: #50864E;
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 3px;
+}
+.nav-peach-green button.navbar-toggle.collapsed{
+  border-color: white;
+}
+.nav-peach-green button.navbar-toggle{
+}
+.nav-peach-green .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+/*Navbar CSS pink*/
+.nav-peach-pink{
+  background: #C8696D;
+}
+.nav-peach-pink li a{
+  color: white;
+  padding-top: 20px;
+}
+.nav-peach-pink li a:hover{
+  color: #C8696D;
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 3px;
+}
+.nav-peach-pink button.navbar-toggle.collapsed{
+  border-color: white;
+}
+.nav-peach-pink button.navbar-toggle{
+}
+.nav-peach-pink .navbar-toggle .icon-bar{
+  background-color: white;
+}
 
 a {
   background-color: transparent;
@@ -5141,30 +5241,30 @@ fieldset[disabled] a.btn {
 
 .btn-peach-main-dark {
   color: #fff;
-  background-color: #49506a;
-  border: 2px solid #49506a;
-  border-color: #49506a;
+  background-color: #132f4d;
+  border: 2px solid #132f4d;
+  border-color: #132f4d;
   border-radius: 5px !important;
 }
 
 .btn-peach-main-dark:hover {
   color: #fff;
-  background-color: #34394c;
-  border-color: #303546;
+  background-color: #091624;
+  border-color: #07111c;
 }
 
 .btn-peach-main-dark:focus, .btn-peach-main-dark.focus {
   color: #fff;
-  background-color: #34394c;
-  border-color: #303546;
+  background-color: #091624;
+  border-color: #07111c;
 }
 
 .btn-peach-main-dark:active, .btn-peach-main-dark.active,
 .open > .btn-peach-main-dark.dropdown-toggle {
   color: #fff;
-  background-color: #34394c;
+  background-color: #091624;
   background-image: none;
-  border-color: #303546;
+  border-color: #07111c;
 }
 
 .btn-peach-main-dark:active:hover, .btn-peach-main-dark:active:focus, .btn-peach-main-dark:active.focus, .btn-peach-main-dark.active:hover, .btn-peach-main-dark.active:focus, .btn-peach-main-dark.active.focus,
@@ -5172,18 +5272,18 @@ fieldset[disabled] a.btn {
 .open > .btn-peach-main-dark.dropdown-toggle:focus,
 .open > .btn-peach-main-dark.dropdown-toggle.focus {
   color: #fff;
-  background-color: #262937;
-  border-color: #15171e;
+  background-color: #020507;
+  border-color: black;
 }
 
 .btn-peach-main-dark.disabled:focus, .btn-peach-main-dark.disabled.focus, .btn-peach-main-dark:disabled:focus, .btn-peach-main-dark:disabled.focus {
-  background-color: #49506a;
-  border-color: #49506a;
+  background-color: #132f4d;
+  border-color: #132f4d;
 }
 
 .btn-peach-main-dark.disabled:hover, .btn-peach-main-dark:disabled:hover {
-  background-color: #49506a;
-  border-color: #49506a;
+  background-color: #132f4d;
+  border-color: #132f4d;
 }
 
 .btn-peach-orange-med {
@@ -5939,32 +6039,32 @@ fieldset[disabled] a.btn {
 }
 
 .btn-peach-main-dark-outline {
-  color: #49506a;
+  color: #132f4d;
   background-color: transparent;
   background-image: none;
-  border: 2px solid #49506a;
+  border: 2px solid #132f4d;
   border-radius: 5px !important;
 }
 
 .btn-peach-main-dark-outline:focus, .btn-peach-main-dark-outline.focus, .btn-peach-main-dark-outline:active, .btn-peach-main-dark-outline.active,
 .open > .btn-peach-main-dark-outline.dropdown-toggle {
   color: #fff;
-  background-color: #49506a;
-  border-color: #49506a;
+  background-color: #132f4d;
+  border-color: #132f4d;
 }
 
 .btn-peach-main-dark-outline:hover {
   color: #fff;
-  background-color: #49506a;
-  border-color: #49506a;
+  background-color: #132f4d;
+  border-color: #132f4d;
 }
 
 .btn-peach-main-dark-outline.disabled:focus, .btn-peach-main-dark-outline.disabled.focus, .btn-peach-main-dark-outline:disabled:focus, .btn-peach-main-dark-outline:disabled.focus {
-  border-color: #7780a2;
+  border-color: #27619f;
 }
 
 .btn-peach-main-dark-outline.disabled:hover, .btn-peach-main-dark-outline:disabled:hover {
-  border-color: #7780a2;
+  border-color: #27619f;
 }
 
 .btn-peach-orange-dark-outline {
@@ -7153,7 +7253,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-peach-main {
-  background-color: #49506a;
+  background-color: #132f4d;
 }
 
 .navbar-peach-orange {
@@ -7342,6 +7442,39 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-divider {
   background-color: rgba(255, 255, 255, .075);
+}
+
+.navbar-peach-main .navbar-brand {
+  color: white;
+}
+
+.navbar-peach-main .navbar-brand:focus, .navbar-peach-main .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-peach-main .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-peach-main .navbar-nav .nav-link:focus, .navbar-peach-main .navbar-nav .nav-link:hover {
+  color: gray;
+}
+
+.navbar-peach-main .navbar-nav .open > .nav-link, .navbar-peach-main .navbar-nav .open > .nav-link:focus, .navbar-peach-main .navbar-nav .open > .nav-link:hover,
+.navbar-peach-main .navbar-nav .active > .nav-link,
+.navbar-peach-main .navbar-nav .active > .nav-link:focus,
+.navbar-peach-main .navbar-nav .active > .nav-link:hover,
+.navbar-peach-main .navbar-nav .nav-link.open,
+.navbar-peach-main .navbar-nav .nav-link.open:focus,
+.navbar-peach-main .navbar-nav .nav-link.open:hover,
+.navbar-peach-main .navbar-nav .nav-link.active,
+.navbar-peach-main .navbar-nav .nav-link.active:focus,
+.navbar-peach-main .navbar-nav .nav-link.active:hover {
+  color: rgba(0, 0, 0, .8);
+}
+
+.navbar-peach-main .navbar-divider {
+  background-color: rgba(0, 0, 0, .075);
 }
 
 .card {
