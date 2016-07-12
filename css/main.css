@@ -30,6 +30,43 @@ img#brand{
 div.code{
 	background-color: #DDD;
 }
+
+.logo-icon{
+    font-size: 60px;
+  }
+
+.center-row{
+	text-align: center;
+}
+
+.glyph-row{
+	display: inline-block;
+	text-align: center;
+}
+
+.glyph{
+	display: inline-block;
+	padding: 20px;
+}
+
+.hide_glyph{
+	display: none;
+}
+
+.glyph:hover .hide_glyph{
+	display: inherit;
+
+}
+
+.glyph:hover .show_glyph{
+	display: none;
+
+}
+
+.padding-row{
+	padding-bottom: 30px;
+}
+
 .btn-ex{
 	margin-top: 4px;
 }
