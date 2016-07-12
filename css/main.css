@@ -151,27 +151,6 @@ div.code{
 }
 
 /*Navbar CSS pink*/
-.nav-peach-pink{
-	background: #C8696D;
-}
-.nav-peach-pink li a{
-	color: white;
-	padding-top: 20px;
-}
-.nav-peach-pink li a:hover{
-	color: #C8696D;
-	padding-top: 20px;
-	background-color: white;
-	border-radius: 3px;
-}
-.nav-peach-pink button.navbar-toggle.collapsed{
-	border-color: white;
-}
-.nav-peach-pink button.navbar-toggle{
-}
-.nav-peach-pink .navbar-toggle .icon-bar{
-	background-color: white;
-}
 #side-nav-bar{
 	 border-bottom: 1px solid #000000;
 }
@@ -237,29 +216,6 @@ div.code{
 	text-align: center;
 }
 
-.progress-bar-theme1 {
-  background-color: #142F4D;
-}
-
-.progress-bar-theme2 {
-  background-color: #D57939;
-}
-
-.progress-bar-theme3 {
-  background-color: #363636;
-}
-
-.progress-bar-theme4 {
-  background-color: #63717E;
-}
-
-.progress-bar-theme5 {
-  background-color: #753F6E;
-}
-
-.progress-bar-theme6 {
-  background-color: #6AB6AC;
-}
 
 .tab-text{
 	text-indent: 50px;

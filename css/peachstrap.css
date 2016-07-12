@@ -9884,4 +9884,28 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none !important;
   }
 }
+
+.progress-bar-theme1 {
+  background-color: #142F4D;
+}
+
+.progress-bar-theme2 {
+  background-color: #D57939;
+}
+
+.progress-bar-theme3 {
+  background-color: #363636;
+}
+
+.progress-bar-theme4 {
+  background-color: #63717E;
+}
+
+.progress-bar-theme5 {
+  background-color: #753F6E;
+}
+
+.progress-bar-theme6 {
+  background-color: #6AB6AC;
+}
 /*# sourceMappingURL=bootstrap.css.map */
