@@ -137,3 +137,6 @@ div.code{
 #side-nav-bar{
 	 border-bottom: 1px solid #000000;
 }
+#splitter{
+	border-top: 2px solid #132F4D;
+}
