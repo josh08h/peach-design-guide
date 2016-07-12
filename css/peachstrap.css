@@ -8115,7 +8115,7 @@ a.label:focus, a.label:hover {
 .progress {
   display: block;
   width: 100%;
-  height: 1rem;
+  height: auto;
   margin-bottom: 1rem;
 }
 
