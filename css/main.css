@@ -66,3 +66,114 @@ div.code{
 .padding-row{
 	padding-bottom: 30px;
 }
+
+.btn-ex{
+	margin-top: 4px;
+}
+
+
+/*Navbar CSS*/
+.navbar-header a img{
+	width: 180px;
+	margin: -17px;
+}
+
+/*Navbar CSS main*/
+.nav-peach-main{
+	background: #132F4D;
+}
+.nav-peach-main li a{
+	color: white;
+	padding-top: 20px;
+}
+.nav-peach-main li a:hover{
+	color: #132F4D;
+	padding-top: 20px;
+	background-color: white;
+	border-radius: 3px;
+}
+.nav-peach-main button.navbar-toggle.collapsed{
+	border-color: white;
+}
+.nav-peach-main button.navbar-toggle{
+	border-color: white;
+}
+.nav-peach-main .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+/*Navbar CSS mint*/
+.nav-peach-mint{
+	background: #6AB6AC;
+}
+.nav-peach-mint li a{
+	color: white;
+	padding-top: 20px;
+}
+.nav-peach-mint li a:hover{
+	color: #6AB6AC;
+	padding-top: 20px;
+	background-color: white;
+	border-radius: 3px;
+}
+.nav-peach-mint button.navbar-toggle.collapsed{
+	border-color: white;
+}
+.nav-peach-mint button.navbar-toggle{
+	border-color: white;
+}
+.nav-peach-mint .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+/*Navbar CSS green*/
+.nav-peach-green{
+	background: #50864E;
+}
+.nav-peach-green li a{
+	color: white;
+	padding-top: 20px;
+}
+.nav-peach-green li a:hover{
+	color: #50864E;
+	padding-top: 20px;
+	background-color: white;
+	border-radius: 3px;
+}
+.nav-peach-green button.navbar-toggle.collapsed{
+	border-color: white;
+}
+.nav-peach-green button.navbar-toggle{
+}
+.nav-peach-green .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+/*Navbar CSS pink*/
+.nav-peach-pink{
+	background: #C8696D;
+}
+.nav-peach-pink li a{
+	color: white;
+	padding-top: 20px;
+}
+.nav-peach-pink li a:hover{
+	color: #C8696D;
+	padding-top: 20px;
+	background-color: white;
+	border-radius: 3px;
+}
+.nav-peach-pink button.navbar-toggle.collapsed{
+	border-color: white;
+}
+.nav-peach-pink button.navbar-toggle{
+}
+.nav-peach-pink .navbar-toggle .icon-bar{
+	background-color: white;
+}
+#side-nav-bar{
+	 border-bottom: 1px solid #000000;
+}
+#splitter{
+	border-top: 2px solid #132F4D;
+}
