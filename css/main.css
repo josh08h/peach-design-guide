@@ -134,4 +134,6 @@ div.code{
 .nav-peach-pink .navbar-toggle .icon-bar{
 	background-color: white;
 }
-
+#side-nav-bar{
+	 border-bottom: 1px solid #000000;
+}
