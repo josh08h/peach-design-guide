@@ -151,27 +151,6 @@ div.code{
 }
 
 /*Navbar CSS pink*/
-.nav-peach-pink{
-	background: #C8696D;
-}
-.nav-peach-pink li a{
-	color: white;
-	padding-top: 20px;
-}
-.nav-peach-pink li a:hover{
-	color: #C8696D;
-	padding-top: 20px;
-	background-color: white;
-	border-radius: 3px;
-}
-.nav-peach-pink button.navbar-toggle.collapsed{
-	border-color: white;
-}
-.nav-peach-pink button.navbar-toggle{
-}
-.nav-peach-pink .navbar-toggle .icon-bar{
-	background-color: white;
-}
 #side-nav-bar{
 	 border-bottom: 1px solid #000000;
 }
@@ -236,8 +215,11 @@ div.code{
 .multi-logo-container{
 	text-align: center;
 }
+
+
+.tab-text{
+	text-indent: 50px;
+}
 #ptsans{
 	font-family: 'PT Sans';
-}
-.karla-examples{
 }
