@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="98.421997mm"
+   height="31.893999mm"
+   viewBox="0 0 348.73936 113.01022"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="peach_main.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0189167"
+     inkscape:cx="181.10451"
+     inkscape:cy="24.271661"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="another"
+     style="display:inline">
+    <g
+       transform="matrix(1.25,0,0,-1.25,149.93719,1350.5167)"
+       inkscape:label="peach2"
+       id="g6041">
+      <text
+         id="text6043"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="scale(1,-1)"
+         x="-13.96796"
+         y="-1020.0105">
+        <tspan
+           id="tspan6045"
+           sodipodi:role="line"
+           y="-1020.0105"
+           x="-13.96796 12.877239 39.736839 67.780838 96.217239">PEACH</tspan>
+      </text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path6047"
+         style="fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m -71.792461,1020.0109 -16,0 0,18 16,0 0,-18 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6049"
+         style="fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m -51.542461,1020.0109 -16,0 0,39.43 16,0 0,-39.43 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6051"
+         style="fill:#1d1d1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m -31.292461,1020.0109 -16,0 0,24.93 16,0 0,-24.93 z" />
+    </g>
+  </g>
+</svg>
