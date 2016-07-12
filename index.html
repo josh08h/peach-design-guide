@@ -671,37 +671,109 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 id="Dropdowns" class="section-header">Dropdowns</h1>
-                        <p class="section-lead">This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. </p>
-                        <div class="section-callout">
-                            <h4 class="section-callout-header">
-                                Do's and Don'ts
-                            </h4>
-                            <div class="section-callout-lead">
-                                <ul>
-                                    <li>This</li>
-                                    <li>That</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="section-example">
-                            <h4 class="section-example-header">
-                                Example Usage
-                            </h4>
-                            <div class="section-example-container">
-                                <p>SOME FORM EXAMPLES HERE</p>
-                                <!-- examples here -->
-                                <div class="code">
-                                    <code>&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;</code>   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+             <!-- Dropdown -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 id="Dropdowns" class="section-header">Dropdowns</h1>
+              <p class="section-lead"> This template consists of two parts: the dropdown toggle and the dropdown menu, using the <code>dropdown-toggle</code>class and <code>dropdown-menu</code>class respectively.</p>
+              <div class="section-callout">
+                <h4 class="section-callout-header">
+                  Do's and Don'ts
+                </h4>
+                <div class="section-callout-lead">
+                  <ul>
+                    <li>Do hide the dropdown menu when the toggle is off.</li>
+                  </ul>
                 </div>
-            </div>
+              </div>
+
+              <!-- example 1 -->
+              <div class="section-example">
+                <h4 class="section-example-header">
+                  Plain Dropdown Usage
+                </h4>
+
+                <div class="section-example-container">
+                  <p>
+                    <span style="padding-left: 30px">
+                    <div class="dropdown">
+                      <a class="dropdown-header-black dropdown-toggle">Dropdown 1</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">item 1</a>
+                        <a class="dropdown-item" href="#">item 2</a>
+                      </div>
+                    </div>
+                  </span>
+                  <span style="padding-left: 30px">
+                  <div class="dropdown">
+                    <a class="nav-item nav-link">Dropdown 1</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">item 1</a>
+                      <a class="dropdown-item" href="#">item 2</a>
+                    </div>
+                  </div>
+                </span>
+                  </p>
+                </div>
+
+                <div class="code">
+                  <pre>
+                  <code class="language-html" data-lang='html'>
+&lt;div class=&quot;dropdown&quot;&gt;
+  &lt;a class=&quot;nav-item nav-link&quot;&gt;Dropdown 1&amp;nbsp;&lt;span class=&quot;lyphicons glyphicons-chevron-down&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;div class=&quot;dropdown-menu&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 1&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 2&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                  </code>
+                </pre>
+                </div>
+
+                <!-- example 2 -->
+                <div class="section-example">
+                  <h4 class="section-example-header">
+                    Button Dropdown Usage 1
+                  </h4>
+
+                  <div class="section-example-container">
+                    <p>
+                      <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dropdown 2
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdown2">
+                          <a class="dropdown-item" href="#">item 1</a>
+                          <a class="dropdown-item" href="#">item 2</a>
+                        </div>
+                      </div>
+                    </p>
+                  </div>
+
+                  <div class="code">
+                    <pre>
+                    <code class="language-html" data-lang='html'>
+&lt;div class=&quot;dropdown&quot;&gt;
+  &lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdown2&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+    Dropdown 2
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdown2&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 1&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 2&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                    </code>
+                  </div>
+
+
+
+
+
+
+
+
+              </div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
