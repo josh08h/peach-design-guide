@@ -193,3 +193,11 @@ div.code{
 	width: 33%;
 	padding-top: 5px;
 }
+.clearspace-container{
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+.clearspace-container img{
+	display: block;
+	margin: auto;
+}
