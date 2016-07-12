@@ -54,17 +54,6 @@
     <g
        id="g4656"
        transform="matrix(1.25,0,0,-1.25,0.36258571,2524.7462)">
-      <text
-         y="-1021.2997"
-         x="159.93123"
-         transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Montserrat;-inkscape-font-specification:Montserrat-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text4670">
-        <tspan
-           x="159.93123 186.77643 213.63603 241.68004 270.11642"
-           y="-1021.2997"
-           id="tspan4672">PEACH</tspan>
-      </text>
       <path
          d="m 102.10723,1021.3004 -15.999995,0 0,18 15.999995,0 0,-18 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -77,17 +66,6 @@
          d="m 142.60723,1021.3004 -16,0 0,24.93 16,0 0,-24.93 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="path4678" />
-      <text
-         y="-1207.8947"
-         x="105.68882"
-         transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla-Regular;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-         id="text4778">
-        <tspan
-           x="105.68882 132.53401 159.39362 187.43762 215.87402"
-           y="-1207.8947"
-           id="tspan4780">PEACH</tspan>
-      </text>
       <path
          d="m 47.86482,1207.8943 -16,0 0,18 16,0 0,-18 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -108,7 +86,7 @@
          y="-1207.8947"
          x="105.68802"
          transform="scale(1,-1)"
-         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla-Regular;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;font-family:Karla;-inkscape-font-specification:Karla-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;"
          id="text4874">
         <tspan
            x="105.68802 132.53322 159.39282 187.43683 215.87323"
