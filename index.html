@@ -710,110 +710,636 @@
                 </div>
             </div>
             <hr>
-             <!-- Dropdown -->
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 id="Dropdowns" class="section-header">Dropdowns</h1>
-              <p class="section-lead"> This template consists of two parts: the dropdown toggle and the dropdown menu, using the <code>dropdown-toggle</code>class and <code>dropdown-menu</code>class respectively.</p>
-              <div class="section-callout">
-                <h4 class="section-callout-header">
-                  Do's and Don'ts
-                </h4>
-                <div class="section-callout-lead">
-                  <ul>
-                    <li>Do hide the dropdown menu when the toggle is off.</li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- example 1 -->
-              <div class="section-example">
-                <h4 class="section-example-header">
-                  Plain Dropdown Usage
-                </h4>
-
-                <div class="section-example-container">
-                  <p>
-                    <span style="padding-left: 30px">
-                    <div class="dropdown">
-                      <a class="dropdown-header-black dropdown-toggle">Dropdown 1</a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">item 1</a>
-                        <a class="dropdown-item" href="#">item 2</a>
+                           <!-- Dropdown -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h1 id="Dropdowns" class="section-header">Dropdowns</h1>
+                    <p class="section-lead"> This template consists of two parts: the dropdown header and the dropdown menu, using the <code>dropdown-header-*colour*</code>class and <code>dropdown-menu-*colour*</code>class respectively.</p>
+                    <div class="section-callout">
+                      <h4 class="section-callout-header">
+                        Do's and Don'ts
+                      </h4>
+                      <div class="section-callout-lead">
+                        <ul>
+                          <li>Do hide the dropdown menu when the toggle is off.</li>
+                          <li>Do change the size of fonts to match the context.</li>
+                          <li>Do not change the colour sets.</li>
+                        </ul>
                       </div>
                     </div>
-                  </span>
-                  <span style="padding-left: 30px">
-                  <div class="dropdown">
-                    <a class="nav-item nav-link">Dropdown 1</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">item 1</a>
-                      <a class="dropdown-item" href="#">item 2</a>
-                    </div>
-                  </div>
-                </span>
-                  </p>
-                </div>
 
-                <div class="code">
-                  <pre>
-                  <code class="language-html" data-lang='html'>
-&lt;div class=&quot;dropdown&quot;&gt;
-  &lt;a class=&quot;nav-item nav-link&quot;&gt;Dropdown 1&amp;nbsp;&lt;span class=&quot;lyphicons glyphicons-chevron-down&quot;&gt;&lt;/span&gt;&lt;/a&gt;
-  &lt;div class=&quot;dropdown-menu&quot;&gt;
-    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 1&lt;/a&gt;
-    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 2&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-                  </code>
-                </pre>
-                </div>
+                    <!-- example 1 -->
+                    <div class="section-example" style="padding-top: 30px">
+                      <h4 class="section-example-header">
+                        Plain Dropdown with Toggle
+                      </h4>
 
-                <!-- example 2 -->
-                <div class="section-example">
-                  <h4 class="section-example-header">
-                    Button Dropdown Usage 1
-                  </h4>
-
-                  <div class="section-example-container">
-                    <p>
-                      <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Dropdown 2
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdown2">
-                          <a class="dropdown-item" href="#">item 1</a>
-                          <a class="dropdown-item" href="#">item 2</a>
+                      <div class="section-example-container">
+                        <div style="padding: 20px">
+                          <span style="padding-right: 30px">
+                            <div class="dropdown">
+                              <a class="dropdown-header-main-dark dropdown-toggle">main-dark</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item-main-dark" href="#">item 1</a>
+                                <a class="dropdown-item-main-dark" href="#">item 2</a>
+                              </div>
+                            </div>
+                          </span>
+                          <span style="padding-right: 30px">
+                            <div class="dropdown">
+                              <a class="dropdown-header-orange-dark dropdown-toggle">orange-dark</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item-orange-dark" href="#">item 1</a>
+                                <a class="dropdown-item-orange-dark" href="#">item 2</a>
+                              </div>
+                            </div>
+                          </span>
+                          <span style="padding-right: 30px">
+                            <div class="dropdown">
+                              <a class="dropdown-header-gray-dark dropdown-toggle">gray-dark</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item-gray-dark" href="#">item 1</a>
+                                <a class="dropdown-item-gray-dark" href="#">item 2</a>
+                              </div>
+                            </div>
+                          </span>
+                          <span style="padding-right: 30px">
+                            <div class="dropdown">
+                              <a class="dropdown-header-navy-dark dropdown-toggle">navy-dark</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item-navy-dark" href="#">item 1</a>
+                                <a class="dropdown-item-navy-dark" href="#">item 2</a>
+                              </div>
+                            </div>
+                          </span>
+                          <span style="padding-right: 30px">
+                            <div class="dropdown">
+                              <a class="dropdown-header-purple-dark dropdown-toggle">purple-dark</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item-purple-dark" href="#">item 1</a>
+                                <a class="dropdown-item-purple-dark" href="#">item 2</a>
+                              </div>
+                            </div>
+                          </span>
+                          <span style="padding-right: 30px">
+                            <div class="dropdown">
+                              <a class="dropdown-header-mint-dark dropdown-toggle">mint-dark</a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item-mint-dark" href="#">item 1</a>
+                                <a class="dropdown-item-mint-dark" href="#">item 2</a>
+                              </div>
+                            </div>
+                          </span>
                         </div>
                       </div>
-                    </p>
-                  </div>
-
-                  <div class="code">
-                    <pre>
-                    <code class="language-html" data-lang='html'>
+                      <div class="code">
+                        <pre>
+                          <code class="language-html" data-lang='html'>
 &lt;div class=&quot;dropdown&quot;&gt;
-  &lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdown2&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
-    Dropdown 2
-  &lt;/button&gt;
-  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdown2&quot;&gt;
-    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 1&lt;/a&gt;
-    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;item 2&lt;/a&gt;
+  &lt;a class=&quot;dropdown-header-main-dark dropdown-toggle&quot;&gt;main-dark&lt;/a&gt;
+  &lt;div class=&quot;dropdown-menu&quot;&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;item 1&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;item 2&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-                    </code>
-                  </div>
+                          </code>
+                        </pre>
+                      </div>
+
+                      <!-- example 2 -->
+                      <div class="section-example" style="padding-top: 30px">
+                        <h4 class="section-example-header">
+                          Plain Dropdown Without Toggle
+                        </h4>
+
+                        <div class="section-example-container">
+                          <div style="padding: 20px">
+                            <span style="padding-right: 30px">
+                              <div class="dropdown">
+                                <a class="dropdown-header-main-dark">main-dark</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item-main-dark" href="#">item 1</a>
+                                  <a class="dropdown-item-main-dark" href="#">item 2</a>
+                                </div>
+                              </div>
+                            </span>
+                            <span style="padding-right: 30px">
+                              <div class="dropdown">
+                                <a class="dropdown-header-orange-dark">orange-dark</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item-orange-dark" href="#">item 1</a>
+                                  <a class="dropdown-item-orange-dark" href="#">item 2</a>
+                                </div>
+                              </div>
+                            </span>
+                            <span style="padding-right: 30px">
+                              <div class="dropdown">
+                                <a class="dropdown-header-gray-dark">gray-dark</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item-gray-dark" href="#">item 1</a>
+                                  <a class="dropdown-item-gray-dark" href="#">item 2</a>
+                                </div>
+                              </div>
+                            </span>
+                            <span style="padding-right: 30px">
+                              <div class="dropdown">
+                                <a class="dropdown-header-navy-dark">navy-dark</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item-navy-dark" href="#">item 1</a>
+                                  <a class="dropdown-item-navy-dark" href="#">item 2</a>
+                                </div>
+                              </div>
+                            </span>
+                            <span style="padding-right: 30px">
+                              <div class="dropdown">
+                                <a class="dropdown-header-purple-dark">purple-dark</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item-purple-dark" href="#">item 1</a>
+                                  <a class="dropdown-item-purple-dark" href="#">item 2</a>
+                                </div>
+                              </div>
+                            </span>
+                            <span style="padding-right: 30px">
+                              <div class="dropdown">
+                                <a class="dropdown-header-mint-dark">mint-dark</a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item-mint-dark" href="#">item 1</a>
+                                  <a class="dropdown-item-mint-dark" href="#">item 2</a>
+                                </div>
+                              </div>
+                            </span>
+                          </div>
+                        </div>
+
+                        <div class="code">
+                          <pre>
+                            <code class="language-html" data-lang='html'>
+                              <!-- INSERT CODES -->
+&lt;div class=&quot;dropdown&quot;&gt;
+  &lt;a class=&quot;dropdown-header-main-dark&quot;&gt;main-dark&lt;/a&gt;
+  &lt;div class=&quot;dropdown-menu&quot;&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;item 1&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;item 2&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                          </pre>
+                        </div>
 
 
+                      <!-- example 3 -->
+                      <div class="section-example" style="padding-top: 30px">
+                        <h4 class="section-example-header">
+                          Button Dropdown with Toggle - outlined
+                        </h4>
+
+                        <div class="section-example-container">
+                          <div style="padding: 20px">
+                            <div class="btn-group">
+                              <button type="button" class="btn-peach-main-dark-outline-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                btn dropdown main-dark
+                              </button>
+                              <div class="dropdown-menu-main-dark">
+                                <a class="dropdown-item-main-dark" href="#">Action</a>
+                                <a class="dropdown-item-main-dark" href="#">Another action</a>
+                                <a class="dropdown-item-main-dark" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item-main-dark" href="#">Separated link</a>
+                              </div>
+                          </div>
+
+                          <div class="btn-group">
+                            <button type="button" class="btn-peach-orange-dark-outline-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              btn dropdown orange-dark
+                            </button>
+                            <div class="dropdown-menu-orange-dark">
+                              <a class="dropdown-item-orange-dark" href="#">Action</a>
+                              <a class="dropdown-item-orange-dark" href="#">Another action</a>
+                              <a class="dropdown-item-orange-dark" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item-orange-dark" href="#">Separated link</a>
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+                          <button type="button" class="btn-peach-gray-dark-outline-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            btn dropdown gray-dark
+                          </button>
+                          <div class="dropdown-menu-gray-dark">
+                            <a class="dropdown-item-gray-dark" href="#">Action</a>
+                            <a class="dropdown-item-gray-dark" href="#">Another action</a>
+                            <a class="dropdown-item-gray-dark" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item-gray-dark" href="#">Separated link</a>
+                          </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="btn-group">
+                          <button type="button" class="btn-peach-navy-dark-outline-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            btn dropdown navy-dark
+                          </button>
+                          <div class="dropdown-menu-navy-dark">
+                            <a class="dropdown-item-navy-dark" href="#">Action</a>
+                            <a class="dropdown-item-navy-dark" href="#">Another action</a>
+                            <a class="dropdown-item-navy-dark" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item-navy-dark" href="#">Separated link</a>
+                          </div>
+                        </div>
+                        <div class="btn-group">
+                          <button type="button" class="btn-peach-purple-dark-outline-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            btn dropdown purple-dark
+                          </button>
+                          <div class="dropdown-menu-purple-dark">
+                            <a class="dropdown-item-purple-dark" href="#">Action</a>
+                            <a class="dropdown-item-purple-dark" href="#">Another action</a>
+                            <a class="dropdown-item-purple-dark" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item-purple-dark" href="#">Separated link</a>
+                          </div>
+                        </div>
+                        <div class="btn-group">
+                          <button type="button" class="btn-peach-mint-dark-outline-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            btn dropdown mint-dark
+                          </button>
+                          <div class="dropdown-menu-mint-dark">
+                            <a class="dropdown-item-mint-dark" href="#">Action</a>
+                            <a class="dropdown-item-mint-dark" href="#">Another action</a>
+                            <a class="dropdown-item-mint-dark" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item-mint-dark" href="#">Separated link</a>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="code">
+                          <pre>
+                            <code class="language-html" data-lang='html'>
+                            <!-- INSERT CODES HERE -->
+&lt;div class=&quot;btn-group&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn-peach-main-dark-outline-angled dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+    btn dropdown main-dark
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu-main-dark&quot;&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+    &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                          </pre>
+                          </div>
+                        </div>
+                        </div>
 
 
+                        <!-- example 4 -->
+                        <div class="section-example" style="padding-top: 30px">
+                          <h4 class="section-example-header">
+                            Button Dropdown Without Toggle - outlined
+                          </h4>
+
+                          <div class="section-example-container">
+                            <div style="padding: 20px">
+                            <p>
+                              <div class="btn-group">
+                                <button type="button" class="btn-peach-main-dark-outline-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  btn dropdown main-dark
+                                </button>
+                                <div class="dropdown-menu-main-dark">
+                                  <a class="dropdown-item-main-dark" href="#">Action</a>
+                                  <a class="dropdown-item-main-dark" href="#">Another action</a>
+                                  <a class="dropdown-item-main-dark" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item-main-dark" href="#">Separated link</a>
+                                </div>
+                            </div>
+
+                            <div class="btn-group">
+                              <button type="button" class="btn-peach-orange-dark-outline-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                btn dropdown orange-dark
+                              </button>
+                              <div class="dropdown-menu-orange-dark">
+                                <a class="dropdown-item-orange-dark" href="#">Action</a>
+                                <a class="dropdown-item-orange-dark" href="#">Another action</a>
+                                <a class="dropdown-item-orange-dark" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item-orange-dark" href="#">Separated link</a>
+                              </div>
+                          </div>
+
+                          <div class="btn-group">
+                            <button type="button" class="btn-peach-gray-dark-outline-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              btn dropdown gray-dark
+                            </button>
+                            <div class="dropdown-menu-gray-dark">
+                              <a class="dropdown-item-gray-dark" href="#">Action</a>
+                              <a class="dropdown-item-gray-dark" href="#">Another action</a>
+                              <a class="dropdown-item-gray-dark" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item-gray-dark" href="#">Separated link</a>
+                            </div>
+                          </div>
+                          <br>
+                          <br>
+                          <div class="btn-group">
+                            <button type="button" class="btn-peach-navy-dark-outline-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              btn dropdown navy-dark
+                            </button>
+                            <div class="dropdown-menu-navy-dark">
+                              <a class="dropdown-item-navy-dark" href="#">Action</a>
+                              <a class="dropdown-item-navy-dark" href="#">Another action</a>
+                              <a class="dropdown-item-navy-dark" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item-navy-dark" href="#">Separated link</a>
+                            </div>
+                          </div>
+                          <div class="btn-group">
+                            <button type="button" class="btn-peach-purple-dark-outline-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              btn dropdown purple-dark
+                            </button>
+                            <div class="dropdown-menu-purple-dark">
+                              <a class="dropdown-item-purple-dark" href="#">Action</a>
+                              <a class="dropdown-item-purple-dark" href="#">Another action</a>
+                              <a class="dropdown-item-purple-dark" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item-purple-dark" href="#">Separated link</a>
+                            </div>
+                          </div>
+                          <div class="btn-group">
+                            <button type="button" class="btn-peach-mint-dark-outline-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              btn dropdown mint-dark
+                            </button>
+                            <div class="dropdown-menu-mint-dark">
+                              <a class="dropdown-item-mint-dark" href="#">Action</a>
+                              <a class="dropdown-item-mint-dark" href="#">Another action</a>
+                              <a class="dropdown-item-mint-dark" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item-mint-dark" href="#">Separated link</a>
+                            </div>
+                          </div>
+
+                            </p>
+                          </div>
+
+                          <div class="code">
+                            <pre>
+                              <code class="language-html" data-lang='html'>
+                              <!-- INSERT CODES HERE -->
+&lt;div class=&quot;btn-group&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn-peach-main-dark-outline-angled&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+    btn dropdown main-dark
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu-main-dark&quot;&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+    &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                              </code>
+                            </pre>
+                            </div>
+                          </div>
+                          </div>
+
+                          <!-- example 5 -->
+                          <div class="section-example" style="padding-top: 30px">
+                            <h4 class="section-example-header">
+                              Button Dropdown with Toggle - filled
+                            </h4>
+
+                            <div class="section-example-container">
+                              <div style="padding: 20px">
+                              <p>
+                                <div class="btn-group">
+                                  <button type="button" class="btn-peach-main-dark-fill-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    btn dropdown main-dark
+                                  </button>
+                                  <div class="dropdown-menu-main-dark">
+                                    <a class="dropdown-item-main-dark" href="#">Action</a>
+                                    <a class="dropdown-item-main-dark" href="#">Another action</a>
+                                    <a class="dropdown-item-main-dark" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item-main-dark" href="#">Separated link</a>
+                                  </div>
+                              </div>
+
+                              <div class="btn-group">
+                                <button type="button" class="btn-peach-orange-dark-fill-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  btn dropdown orange-dark
+                                </button>
+                                <div class="dropdown-menu-orange-dark">
+                                  <a class="dropdown-item-orange-dark" href="#">Action</a>
+                                  <a class="dropdown-item-orange-dark" href="#">Another action</a>
+                                  <a class="dropdown-item-orange-dark" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item-orange-dark" href="#">Separated link</a>
+                                </div>
+                            </div>
+
+                            <div class="btn-group">
+                              <button type="button" class="btn-peach-gray-dark-fill-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                btn dropdown gray-dark
+                              </button>
+                              <div class="dropdown-menu-gray-dark">
+                                <a class="dropdown-item-gray-dark" href="#">Action</a>
+                                <a class="dropdown-item-gray-dark" href="#">Another action</a>
+                                <a class="dropdown-item-gray-dark" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item-gray-dark" href="#">Separated link</a>
+                              </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="btn-group">
+                              <button type="button" class="btn-peach-navy-dark-fill-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                btn dropdown navy-dark
+                              </button>
+                              <div class="dropdown-menu-navy-dark">
+                                <a class="dropdown-item-navy-dark" href="#">Action</a>
+                                <a class="dropdown-item-navy-dark" href="#">Another action</a>
+                                <a class="dropdown-item-navy-dark" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item-navy-dark" href="#">Separated link</a>
+                              </div>
+                            </div>
+                            <div class="btn-group">
+                              <button type="button" class="btn-peach-purple-dark-fill-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                btn dropdown purple-dark
+                              </button>
+                              <div class="dropdown-menu-purple-dark">
+                                <a class="dropdown-item-purple-dark" href="#">Action</a>
+                                <a class="dropdown-item-purple-dark" href="#">Another action</a>
+                                <a class="dropdown-item-purple-dark" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item-purple-dark" href="#">Separated link</a>
+                              </div>
+                            </div>
+                            <div class="btn-group">
+                              <button type="button" class="btn-peach-mint-dark-fill-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                btn dropdown mint-dark
+                              </button>
+                              <div class="dropdown-menu-mint-dark">
+                                <a class="dropdown-item-mint-dark" href="#">Action</a>
+                                <a class="dropdown-item-mint-dark" href="#">Another action</a>
+                                <a class="dropdown-item-mint-dark" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item-mint-dark" href="#">Separated link</a>
+                              </div>
+                            </div>
+
+                              </p>
+                            </div>
+
+                            <div class="code">
+                              <pre>
+                                <code class="language-html" data-lang='html'>
+                                <!-- INSERT CODES HERE -->
+  &lt;div class=&quot;btn-group&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn-peach-main-dark-fill-angled dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+      btn dropdown main-dark
+    &lt;/button&gt;
+    &lt;div class=&quot;dropdown-menu-main-dark&quot;&gt;
+      &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+      &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+      &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+      &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+      &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                                </code>
+                              </pre>
+                              </div>
+                            </div>
+                            </div>
 
 
+                            <!-- example 6 -->
+                            <div class="section-example" style="padding-top: 30px">
+                              <h4 class="section-example-header">
+                                Button Dropdown Without Toggle - filled
+                              </h4>
 
+                              <div class="section-example-container">
+                                <div style="padding: 20px">
+                                <p>
+                                  <div class="btn-group">
+                                    <button type="button" class="btn-peach-main-dark-fill-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      btn dropdown main-dark
+                                    </button>
+                                    <div class="dropdown-menu-main-dark">
+                                      <a class="dropdown-item-main-dark" href="#">Action</a>
+                                      <a class="dropdown-item-main-dark" href="#">Another action</a>
+                                      <a class="dropdown-item-main-dark" href="#">Something else here</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item-main-dark" href="#">Separated link</a>
+                                    </div>
+                                </div>
 
-              </div>
+                                <div class="btn-group">
+                                  <button type="button" class="btn-peach-orange-dark-fill-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    btn dropdown orange-dark
+                                  </button>
+                                  <div class="dropdown-menu-orange-dark">
+                                    <a class="dropdown-item-orange-dark" href="#">Action</a>
+                                    <a class="dropdown-item-orange-dark" href="#">Another action</a>
+                                    <a class="dropdown-item-orange-dark" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item-orange-dark" href="#">Separated link</a>
+                                  </div>
+                              </div>
+
+                              <div class="btn-group">
+                                <button type="button" class="btn-peach-gray-dark-fill-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  btn dropdown gray-dark
+                                </button>
+                                <div class="dropdown-menu-gray-dark">
+                                  <a class="dropdown-item-gray-dark" href="#">Action</a>
+                                  <a class="dropdown-item-gray-dark" href="#">Another action</a>
+                                  <a class="dropdown-item-gray-dark" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item-gray-dark" href="#">Separated link</a>
+                                </div>
+                              </div>
+                              <br>
+                              <br>
+                              <div class="btn-group">
+                                <button type="button" class="btn-peach-navy-dark-fill-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  btn dropdown navy-dark
+                                </button>
+                                <div class="dropdown-menu-navy-dark">
+                                  <a class="dropdown-item-navy-dark" href="#">Action</a>
+                                  <a class="dropdown-item-navy-dark" href="#">Another action</a>
+                                  <a class="dropdown-item-navy-dark" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item-navy-dark" href="#">Separated link</a>
+                                </div>
+                              </div>
+                              <div class="btn-group">
+                                <button type="button" class="btn-peach-purple-dark-fill-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  btn dropdown purple-dark
+                                </button>
+                                <div class="dropdown-menu-purple-dark">
+                                  <a class="dropdown-item-purple-dark" href="#">Action</a>
+                                  <a class="dropdown-item-purple-dark" href="#">Another action</a>
+                                  <a class="dropdown-item-purple-dark" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item-purple-dark" href="#">Separated link</a>
+                                </div>
+                              </div>
+                              <div class="btn-group">
+                                <button type="button" class="btn-peach-mint-dark-fill-angled" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  btn dropdown mint-dark
+                                </button>
+                                <div class="dropdown-menu-mint-dark">
+                                  <a class="dropdown-item-mint-dark" href="#">Action</a>
+                                  <a class="dropdown-item-mint-dark" href="#">Another action</a>
+                                  <a class="dropdown-item-mint-dark" href="#">Something else here</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item-mint-dark" href="#">Separated link</a>
+                                </div>
+                              </div>
+
+                                </p>
+                              </div>
+
+                              <div class="code">
+                                <pre>
+                                  <code class="language-html" data-lang='html'>
+                                  <!-- INSERT CODES HERE -->
+&lt;div class=&quot;btn-group&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn-peach-main-dark-fill-angled&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+    btn dropdown main-dark
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu-main-dark&quot;&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+    &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+    &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                                  </code>
+                                </pre>
+                                </div>
+                              </div>
+                              </div>
+
+  <!-- Dropdown finish -->
               <hr>
+
+
+
+
+
+
+<!-- FORMS SECTION --><!-- FORMS SECTION --><!-- FORMS SECTION --><!-- FORMS SECTION -->
+              
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
@@ -846,37 +1372,307 @@
                 </div>
             </div>
             <hr>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 id="Labels" class="section-header">Labels</h1>
-                        <p class="section-lead">This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. </p>
-                        <div class="section-callout">
-                            <h4 class="section-callout-header">
-                                Do's and Don'ts
-                            </h4>
-                            <div class="section-callout-lead">
-                                <ul>
-                                    <li>This</li>
-                                    <li>That</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="section-example">
-                            <h4 class="section-example-header">
-                                Example Usage
-                            </h4>
-                            <div class="section-example-container">
-                                <p>SOME FORM EXAMPLES HERE</p>
-                                <!-- examples here -->
-                                <div class="code">
-                                    <code>&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;</code>   
-                                </div>
-                            </div>
+<!-- LABELS SECTION --><!-- LABELS SECTION --><!-- LABELS SECTION --><!-- LABELS SECTION -->
+              <!--- - YINING - Labels  ---->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 id="Labels" class="section-header">Labels</h1>
+                <p class="section-lead">Work as tags for certain contents.</p>
+                <div class="section-callout">
+                  <h4 class="section-callout-header">
+                    Do's and Don'ts
+                  </h4>
+                  <div class="section-callout-lead">
+                    <ul>
+                      <li>Do select the right size of labels depending on the font size of context.</li>
+                      <li>Do select the right colour of labels depending on the colour of context.
+                      <li>Do not alter the colour sets.</li>
+                    </ul>
+                  </div>
+                </div>
+                  <div class="section-example">
+                    <div class="padding-top:30px">
+        <!-- Example 1 -->
+                    <h4 class="section-example-header">
+                      <!-- example name here -->
+                      Outlined Angled Examples
+                    </h4>
+                    <div class="section-example-container">
+                        <div style="padding: 20px">
+                          <!-- examples here -->
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-main-dark-outline angled lbl-xs">Label</span>
+                            <span class="label lbl-main-dark-outline angled lbl-s">Label</span>
+                            <span class="label lbl-main-dark-outline angled lbl-m">Label</span>
+                            <span class="label lbl-main-dark-outline angled lbl-l">Label</span>
+                            <span class="label lbl-main-dark-outline angled lbl-xl">Label</span>
+                            <span class="label lbl-main-dark-outline angled lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-orange-dark-outline angled lbl-xs">Label</span>
+                            <span class="label lbl-orange-dark-outline angled lbl-s">Label</span>
+                            <span class="label lbl-orange-dark-outline angled lbl-m">Label</span>
+                            <span class="label lbl-orange-dark-outline angled lbl-l">Label</span>
+                            <span class="label lbl-orange-dark-outline angled lbl-xl">Label</span>
+                            <span class="label lbl-orange-dark-outline angled lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-gray-dark-outline angled lbl-xs">Label</span>
+                            <span class="label lbl-gray-dark-outline angled lbl-s">Label</span>
+                            <span class="label lbl-gray-dark-outline angled lbl-m">Label</span>
+                            <span class="label lbl-gray-dark-outline angled lbl-l">Label</span>
+                            <span class="label lbl-gray-dark-outline angled lbl-xl">Label</span>
+                            <span class="label lbl-gray-dark-outline angled lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-navy-dark-outline angled lbl-xs">Label</span>
+                            <span class="label lbl-navy-dark-outline angled lbl-s">Label</span>
+                            <span class="label lbl-navy-dark-outline angled lbl-m">Label</span>
+                            <span class="label lbl-navy-dark-outline angled lbl-l">Label</span>
+                            <span class="label lbl-navy-dark-outline angled lbl-xl">Label</span>
+                            <span class="label lbl-navy-dark-outline angled lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-purple-dark-outline angled lbl-xs">Label</span>
+                            <span class="label lbl-purple-dark-outline angled lbl-s">Label</span>
+                            <span class="label lbl-purple-dark-outline angled lbl-m">Label</span>
+                            <span class="label lbl-purple-dark-outline angled lbl-l">Label</span>
+                            <span class="label lbl-purple-dark-outline angled lbl-xl">Label</span>
+                            <span class="label lbl-purple-dark-outline angled lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-mint-dark-outline angled lbl-xs">Label</span>
+                            <span class="label lbl-mint-dark-outline angled lbl-s">Label</span>
+                            <span class="label lbl-mint-dark-outline angled lbl-m">Label</span>
+                            <span class="label lbl-mint-dark-outline angled lbl-l">Label</span>
+                            <span class="label lbl-mint-dark-outline angled lbl-xl">Label</span>
+                            <span class="label lbl-mint-dark-outline angled lbl-xxl">Label</span>
+                          </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                      <div class="code">
+                        <pre>
+                          <code class="language-html" data-lang='html'>
+                          <!-- INSERT CODES HERE -->
+&lt;span class=&quot;label lbl-main-dark-outline angled lbl-xs&quot;&gt;Label&lt;/span&gt;
+                          </code>
+                        </pre>
+                        </div>
+                    </div>
+        <!-- Example 2 -->
+                    <h4 class="section-example-header">
+                      <!-- example name here -->
+                      Outlined Rounded Examples
+                    </h4>
+                    <div class="section-example-container">
+                      <div style="padding: 20px">
+                          <!-- examples here -->
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-main-dark-outline round lbl-xs">Label</span>
+                            <span class="label lbl-main-dark-outline round lbl-s">Label</span>
+                            <span class="label lbl-main-dark-outline round lbl-m">Label</span>
+                            <span class="label lbl-main-dark-outline round lbl-l">Label</span>
+                            <span class="label lbl-main-dark-outline round lbl-xl">Label</span>
+                            <span class="label lbl-main-dark-outline round lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-orange-dark-outline round lbl-xs">Label</span>
+                            <span class="label lbl-orange-dark-outline round lbl-s">Label</span>
+                            <span class="label lbl-orange-dark-outline round lbl-m">Label</span>
+                            <span class="label lbl-orange-dark-outline round lbl-l">Label</span>
+                            <span class="label lbl-orange-dark-outline round lbl-xl">Label</span>
+                            <span class="label lbl-orange-dark-outline round lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-gray-dark-outline round lbl-xs">Label</span>
+                            <span class="label lbl-gray-dark-outline round lbl-s">Label</span>
+                            <span class="label lbl-gray-dark-outline round lbl-m">Label</span>
+                            <span class="label lbl-gray-dark-outline round lbl-l">Label</span>
+                            <span class="label lbl-gray-dark-outline round lbl-xl">Label</span>
+                            <span class="label lbl-gray-dark-outline round lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-navy-dark-outline round lbl-xs">Label</span>
+                            <span class="label lbl-navy-dark-outline round lbl-s">Label</span>
+                            <span class="label lbl-navy-dark-outline round lbl-m">Label</span>
+                            <span class="label lbl-navy-dark-outline round lbl-l">Label</span>
+                            <span class="label lbl-navy-dark-outline round lbl-xl">Label</span>
+                            <span class="label lbl-navy-dark-outline round lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-purple-dark-outline round lbl-xs">Label</span>
+                            <span class="label lbl-purple-dark-outline round lbl-s">Label</span>
+                            <span class="label lbl-purple-dark-outline round lbl-m">Label</span>
+                            <span class="label lbl-purple-dark-outline round lbl-l">Label</span>
+                            <span class="label lbl-purple-dark-outline round lbl-xl">Label</span>
+                            <span class="label lbl-purple-dark-outline round lbl-xxl">Label</span>
+                          </div>
+                          <div style="padding-bottom:5px">
+                            <span class="label lbl-mint-dark-outline round lbl-xs">Label</span>
+                            <span class="label lbl-mint-dark-outline round lbl-s">Label</span>
+                            <span class="label lbl-mint-dark-outline round lbl-m">Label</span>
+                            <span class="label lbl-mint-dark-outline round lbl-l">Label</span>
+                            <span class="label lbl-mint-dark-outline round lbl-xl">Label</span>
+                            <span class="label lbl-mint-dark-outline round lbl-xxl">Label</span>
+                          </div>
+                        </div>
+                    </div>
+                      <div class="code">
+                        <pre>
+                          <code class="language-html" data-lang='html'>
+                          <!-- INSERT CODES HERE -->
+&lt;span class=&quot;label lbl-main-dark-outline round lbl-xs&quot;&gt;Label&lt;/span&gt;
+                          </code>
+                        </pre>
+                        </div>
+                    </div>
+
+
+          <!-- Example 3 -->
+                      <h4 class="section-example-header">
+                        <!-- example name here -->
+                        Filled Angled Examples
+                      </h4>
+                      <div class="section-example-container">
+                          <div style="padding: 20px">
+                            <!-- examples here -->
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-main-dark-fill angled lbl-xs">Label</span>
+                              <span class="label lbl-main-dark-fill angled lbl-s">Label</span>
+                              <span class="label lbl-main-dark-fill angled lbl-m">Label</span>
+                              <span class="label lbl-main-dark-fill angled lbl-l">Label</span>
+                              <span class="label lbl-main-dark-fill angled lbl-xl">Label</span>
+                              <span class="label lbl-main-dark-fill angled lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-orange-dark-fill angled lbl-xs">Label</span>
+                              <span class="label lbl-orange-dark-fill angled lbl-s">Label</span>
+                              <span class="label lbl-orange-dark-fill angled lbl-m">Label</span>
+                              <span class="label lbl-orange-dark-fill angled lbl-l">Label</span>
+                              <span class="label lbl-orange-dark-fill angled lbl-xl">Label</span>
+                              <span class="label lbl-orange-dark-fill angled lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-gray-dark-fill angled lbl-xs">Label</span>
+                              <span class="label lbl-gray-dark-fill angled lbl-s">Label</span>
+                              <span class="label lbl-gray-dark-fill angled lbl-m">Label</span>
+                              <span class="label lbl-gray-dark-fill angled lbl-l">Label</span>
+                              <span class="label lbl-gray-dark-fill angled lbl-xl">Label</span>
+                              <span class="label lbl-gray-dark-fill angled lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-navy-dark-fill angled lbl-xs">Label</span>
+                              <span class="label lbl-navy-dark-fill angled lbl-s">Label</span>
+                              <span class="label lbl-navy-dark-fill angled lbl-m">Label</span>
+                              <span class="label lbl-navy-dark-fill angled lbl-l">Label</span>
+                              <span class="label lbl-navy-dark-fill angled lbl-xl">Label</span>
+                              <span class="label lbl-navy-dark-fill angled lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-purple-dark-fill angled lbl-xs">Label</span>
+                              <span class="label lbl-purple-dark-fill angled lbl-s">Label</span>
+                              <span class="label lbl-purple-dark-fill angled lbl-m">Label</span>
+                              <span class="label lbl-purple-dark-fill angled lbl-l">Label</span>
+                              <span class="label lbl-purple-dark-fill angled lbl-xl">Label</span>
+                              <span class="label lbl-purple-dark-fill angled lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-mint-dark-fill angled lbl-xs">Label</span>
+                              <span class="label lbl-mint-dark-fill angled lbl-s">Label</span>
+                              <span class="label lbl-mint-dark-fill angled lbl-m">Label</span>
+                              <span class="label lbl-mint-dark-fill angled lbl-l">Label</span>
+                              <span class="label lbl-mint-dark-fill angled lbl-xl">Label</span>
+                              <span class="label lbl-mint-dark-fill angled lbl-xxl">Label</span>
+                            </div>
+                          </div>
+                      </div>
+                        <div class="code">
+                          <pre>
+                            <code class="language-html" data-lang='html'>
+                            <!-- INSERT CODES HERE -->
+&lt;span class=&quot;label lbl-main-dark-fill angled lbl-xs&quot;&gt;Label&lt;/span&gt;
+                            </code>
+                          </pre>
+                          </div>
+                      </div>
+          <!-- Example 4 -->
+                      <h4 class="section-example-header">
+                        <!-- example name here -->
+                        Outlined Rounded Examples
+                      </h4>
+                      <div class="section-example-container">
+                        <div style="padding: 20px">
+                            <!-- examples here -->
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-main-dark-fill round lbl-xs">Label</span>
+                              <span class="label lbl-main-dark-fill round lbl-s">Label</span>
+                              <span class="label lbl-main-dark-fill round lbl-m">Label</span>
+                              <span class="label lbl-main-dark-fill round lbl-l">Label</span>
+                              <span class="label lbl-main-dark-fill round lbl-xl">Label</span>
+                              <span class="label lbl-main-dark-fill round lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-orange-dark-fill round lbl-xs">Label</span>
+                              <span class="label lbl-orange-dark-fill round lbl-s">Label</span>
+                              <span class="label lbl-orange-dark-fill round lbl-m">Label</span>
+                              <span class="label lbl-orange-dark-fill round lbl-l">Label</span>
+                              <span class="label lbl-orange-dark-fill round lbl-xl">Label</span>
+                              <span class="label lbl-orange-dark-fill round lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-gray-dark-fill round lbl-xs">Label</span>
+                              <span class="label lbl-gray-dark-fill round lbl-s">Label</span>
+                              <span class="label lbl-gray-dark-fill round lbl-m">Label</span>
+                              <span class="label lbl-gray-dark-fill round lbl-l">Label</span>
+                              <span class="label lbl-gray-dark-fill round lbl-xl">Label</span>
+                              <span class="label lbl-gray-dark-fill round lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-navy-dark-fill round lbl-xs">Label</span>
+                              <span class="label lbl-navy-dark-fill round lbl-s">Label</span>
+                              <span class="label lbl-navy-dark-fill round lbl-m">Label</span>
+                              <span class="label lbl-navy-dark-fill round lbl-l">Label</span>
+                              <span class="label lbl-navy-dark-fill round lbl-xl">Label</span>
+                              <span class="label lbl-navy-dark-fill round lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-purple-dark-fill round lbl-xs">Label</span>
+                              <span class="label lbl-purple-dark-fill round lbl-s">Label</span>
+                              <span class="label lbl-purple-dark-fill round lbl-m">Label</span>
+                              <span class="label lbl-purple-dark-fill round lbl-l">Label</span>
+                              <span class="label lbl-purple-dark-fill round lbl-xl">Label</span>
+                              <span class="label lbl-purple-dark-fill round lbl-xxl">Label</span>
+                            </div>
+                            <div style="padding-bottom:5px">
+                              <span class="label lbl-mint-dark-fill round lbl-xs">Label</span>
+                              <span class="label lbl-mint-dark-fill round lbl-s">Label</span>
+                              <span class="label lbl-mint-dark-fill round lbl-m">Label</span>
+                              <span class="label lbl-mint-dark-fill round lbl-l">Label</span>
+                              <span class="label lbl-mint-dark-fill round lbl-xl">Label</span>
+                              <span class="label lbl-mint-dark-fill round lbl-xxl">Label</span>
+                            </div>
+                          </div>
+                      </div>
+                        <div class="code">
+                          <pre>
+                            <code class="language-html" data-lang='html'>
+                            <!-- INSERT CODES HERE -->
+&lt;span class=&quot;label lbl-main-dark-fill round lbl-xs&quot;&gt;Label&lt;/span&gt;
+                            </code>
+                          </pre>
+                          </div>
+                      </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--- - Label finish ---->
             <hr>
             <div class="container-fluid">
                 <div class="row">
